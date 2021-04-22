@@ -1,0 +1,57 @@
+<resources>
+    //Main Activity
+    <string name="app_name">Fuel Average</string>
+    <string name="Contagens">Records</string>
+    <string name="Novo">New Record</string>
+    <string name="PermTitle">Permission Request</string>
+    <string name="ReasonWrite">The app needs this permission to be able to save data to your phone.</string>
+    <string name="ReasonRead">The app needs this permission to able to read data from your phone.</string>
+    <string name="ButtonOk">Ok</string>
+    <string name="ButtonCancel">Cancel</string>
+    <string name="LeaveTitle">Leave the app?</string>
+    <string name="LeaveMessage">Are you sure you want to leave the app?</string>
+    <string name="LeaveYes">Yes</string>
+    <string name="LeaveNo">No</string>
+
+    //Novo Activity
+    <string name="DistInic">Initial Mileage</string>
+    <string name="DistFin">Final Mileage</string>
+    <string name="Ou">or</string>
+    <string name="DistTotal">Distance Traveled (Km)</string>
+    <string name="Gas">Fuel (liters)</string>
+    <string name="Money">Paid Price</string>
+    <string name="btn_add">Add</string>
+    <string name="PageLabel"><u>Add a new Record</u></string>
+    <string name="NovoErrorToast">Please make sure that the data inserted is correct!</string>
+    <string name="NovoErroToast0">Please make sure that the data inserted is not equal to zero!</string>
+    <string name="NovoErroNegativoToast">Please check your mileage values!</string>
+
+    //Registos
+    <string name="lbl_dist">Traveled Distance:</string>
+    <string name="lbl_gas">Fuel:</string>
+    <string name="lbl_preco">Price:</string>
+    <string name="lblMedia">Average</string>
+    <string name="AvisoTitulo">Delete Record</string>
+    <string name="AvisoDel">Are you sure you want to delete this record?</string>
+    <string name="AvisoSim">Yes</string>
+    <string name="AvisoNao">No</string>
+    <string name="SucRemoved">Record successfully removed!</string>
+    <string name="BadRemoved">There has been an error removing the record.</string>
+    <string name="ToastQtdError">Please insert or import some data before consulting it.</string>
+
+    //Settings
+    <string name="ImportTitle">Import Data Base</string>
+    <string name="ImportDesc">Import the data base from storage, that is compatible with the app.</string>
+    <string name="ExportTitle">Export Data Base</string>
+    <string name="ExportDesc">Export the data base to the storage, creating a back up of the app.</string>
+    <string name="ToastExportError">There has been an error exporting the data base.</string>
+    <string name="ToastExportErrorQtd">There is no data to export!</string>
+    <string name="ToastExportSuccess">Data base successfully exported!</string>
+    <string name="ImportarAvisoTitulo">Import Data?</string>
+    <string name="ImportarAvisoDesc">By importing a data base, the current data will be deleted. Are you sure you want to continue?</string>
+    <string name="ToastImportError">There has been an error importing the data.</string>
+    <string name="NoFileApp">Please install an archive manager.</string>
+    <string name="ToastImportSucess">Data successfully imported.</string>
+    <string name="ToastNameError">Error importing the data, please check your file!</string>
+
+</resources>
